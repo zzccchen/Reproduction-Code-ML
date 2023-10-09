@@ -1,0 +1,14 @@
+name: MG_CORR_DFT_ENV
+channels:
+  - defaults
+dependencies:
+  - python=3.11.5
+  - pip=23.2.1
+  - pandas=2.0.3
+  - scikit-learn=1.2.2
+  - matplotlib=3.7.2
+  - xgboost=1.7.3
+  - openpyxl=3.0.10
+  - jupyter=1.0.0
+  - pip:
+    - pymatgen==2023.10.4
